@@ -2,7 +2,7 @@ package co.edu.uniquindio.servidor.functions;
 
 public class HexadecimalDecimal {
 
-    public static String HexadecimalDecimal(String strHexadecimal){
+    public static String hexadecimalDecimal(String strHexadecimal){
         StringBuilder hexa = new StringBuilder();
         hexa.append(strHexadecimal);
         hexa.reverse();
@@ -29,7 +29,7 @@ public class HexadecimalDecimal {
                     suma = suma + ((int) Math.pow(16,i)*15);
                     break;
                 default:
-                    int valor = hexa.charAt(i);
+                    int valor = hexa.charAt(i) - '0';
                     suma = suma + ((int) Math.pow(16,i)*valor);
             }
         }

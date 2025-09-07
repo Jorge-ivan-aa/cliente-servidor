@@ -1,5 +1,8 @@
 package co.edu.uniquindio.servidor;
 
+import co.edu.uniquindio.servidor.functions.BinarioHexadecimal;
+import co.edu.uniquindio.servidor.functions.DecimalHexadecimal;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -76,6 +79,7 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 
 }

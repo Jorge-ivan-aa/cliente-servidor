@@ -2,7 +2,7 @@ package co.edu.uniquindio.servidor.functions;
 
 public class BinarioDecimal {
 
-    public static String BinarioDecimal(String stringBinario){
+    public static String binarioDecimal(String stringBinario){
         StringBuilder binario = new StringBuilder();
         binario.append(stringBinario);
         binario.reverse();
